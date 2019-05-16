@@ -6,12 +6,14 @@ import br.ufal.ic.academico.model.Subject;
 
 public class Ui {
     public void printMenu(){
-        System.out.println("Add Department");
-        System.out.println("Add Student");
-        System.out.println("Add Subject");
-        System.out.println("List subjects by department");
-        System.out.println("List information by subject");
-        System.out.println("List information by student");
+
+        System.out.println("---------Digit a number---------");
+        System.out.println("1 - Add Department");
+        System.out.println("2 - Add Student");
+        System.out.println("3 - Add Subject");
+        System.out.println("4 - List subjects by department");
+        System.out.println("5 - List information by subject");
+        System.out.println("6 - List information by student");
     }
 
     public void listStudents(){ // method to list all student names and registrations
